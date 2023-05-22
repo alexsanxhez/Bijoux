@@ -1,0 +1,102 @@
+h1{
+	color: blue;   
+	font-family: "Rubik Pixels";
+
+}
+
+
+h2 {
+	color: red;  
+font-family: cursive;
+
+ }
+
+body{text-align: center; 
+	background: blue;
+
+}
+
+
+ul{text-align: left; } 
+
+
+p{
+
+	font-size: 17px;
+}
+
+
+.square{  
+background: lightblue;
+border: solid 10px darkblue;
+border-radius: 100px;
+padding: 50px;
+margin: 0px;
+box-shadow: 10px 10px 10px grey;
+ }
+
+.square1{
+background: grey;
+border: solid 10px darkblue;
+
+
+}
+
+
+.avatar{
+object-fit: cover;
+border: solid 10px darkblue;
+
+}
+
+
+.box1 { 
+	background: blueviolet;
+border: solid 5px blue;
+height: 200px;
+width: 200px;
+}
+
+.box2 {
+background: blueviolet;
+border: solid 5px blue;
+height: 200px;
+width: 200px;
+}
+
+
+.box3 {
+
+background: blueviolet;
+border: solid 5px blue;
+height: 200px;
+width: 200px;
+
+}
+
+
+
+.boxblack {
+background: red;
+border: solid 5px beige;
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+
+
+.map-infos {
+	display: flex;
+	justify-content: space-around;
+align-items: center;
+
+}
+
+.text-infos {
+width: 300px;
+
+
+
+}
+
