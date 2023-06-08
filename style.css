@@ -141,9 +141,14 @@ transition: transform 0.3s ease;
 
 
 
-.square1 { border: solid;
+.square1 { 
+  padding: 50px;
+border: solid;
 box-shadow: grey;
 width: 200 px;
+justify-content: center;
+margin: 0 100px;
+
 }
 
 .img-size {
@@ -151,7 +156,35 @@ width: 200 px;
 width: 600px !important;
 }
 
+.carousel-item img {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+}
 
+.square2 {
+  display: flex;
+border: solid;
+box-shadow: grey;
+width: 700px;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+margin-top: 100px;
+
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+.carousel-control-prev-icon{
+  background-color: black;
+}
 
 
 
