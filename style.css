@@ -1,102 +1,157 @@
-h1{
-	color: blue;   
-	font-family: "Rubik Pixels";
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 20px 0;
+}
+
+.carousel-item {
+  flex: 0 0 auto;
+  width: 300px;
+  margin-right: 20px;
+  text-align: center;
+  scroll-snap-align: start;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+button {
+  background-color: #333;
+  color: grey;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 
-h2 {
-	color: red;  
-font-family: cursive;
-
- }
-
-body{text-align: center; 
-	background: blue;
-
+.maps {
+  display: flex;
+  justify-content: center;
 }
 
 
-ul{text-align: left; } 
+.reseaux{
+display: flex;
+border-radius: 180px;
+justify-content: space-around;}
 
-
-p{
-
-	font-size: 17px;
-}
-
-
-.square{  
-background: lightblue;
-border: solid 10px darkblue;
-border-radius: 100px;
-padding: 50px;
-margin: 0px;
-box-shadow: 10px 10px 10px grey;
- }
-
-.square1{
-background: grey;
-border: solid 10px darkblue;
-
-
-}
-
-
-.avatar{
-object-fit: cover;
-border: solid 10px darkblue;
-
-}
-
-
-.box1 { 
-	background: blueviolet;
-border: solid 5px blue;
-height: 200px;
-width: 200px;
-}
-
-.box2 {
-background: blueviolet;
-border: solid 5px blue;
-height: 200px;
-width: 200px;
-}
-
-
-.box3 {
-
-background: blueviolet;
-border: solid 5px blue;
-height: 200px;
-width: 200px;
-
-}
-
-
-
-.boxblack {
-background: red;
-border: solid 5px beige;
-width: 100%;
+.bijoux-gallery {
 display: flex;
 justify-content: center;
+flex-wrap: wrap;
+margin-top: 15px;
+}
+
+.bijoux-item{
+  width: 30%;
+  margin: 10px;
+padding: 20px;
+border: 6px solid;
+text-align: center;
+transition: transform 0.3s ease;
+
+}
+
+.bijoux-item img {
+  width: 100%;
+  height: auto;
+}
+
+
+.bijoux-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.bijoux-item:hover img {
+  transform: scale(1.2);
 }
 
 
 
-.map-infos {
-	display: flex;
-	justify-content: space-around;
-align-items: center;
-
+.square1 { border: solid;
+box-shadow: grey;
+width: 200 px;
 }
 
-.text-infos {
-width: 300px;
+.img-size {
 
-
-
+width: 600px !important;
 }
+
+
+
+
 
